@@ -1,0 +1,235 @@
+/*
+---- Stylesheet -----
+---RetroPopTheme---
+Made by:
+      .privat-user {
+        GalaxJann: 25%;
+}
+
+Supported addons{
+  todo-show: 1;
+  atom-clock: 1;
+}
+
+.Published on{
+  SUN.28.02.2021;
+  MEZ: 9PM;
+}
+*/
+
+
+.tree-view {
+  background: rgb(22,40,130);
+  background: linear-gradient(1154deg, rgba(22,40,130,1) 5%, rgba(91,9,158,1) 38%, rgba(246,118,13,1) 96%);
+}
+
+
+  atom-text-editor {
+  color: #0f9900;
+  background-color: #060029;
+
+}
+
+
+atom-text-editor .cursor {
+border-color: #19ff00;
+}
+
+atom-text-editor.editor > div > .scroll-view > div, atom-text-editor.editor > div > .gutter-container > div {
+  transition: -webkit-transform .15s cubic-bezier(0,.54,.51,.99);
+}
+
+.syntax--comment {
+    color: #faffb8;
+}
+
+.status-bar-right, .status-bar-right a {
+    color: #19ff00;
+    background-color: #000000;
+}
+
+.status-bar-left{
+  background-color: #000000;
+
+}
+
+.current-path{
+color: #19ff00;
+}
+.welcome-container{
+  background: rgb(26,39,80);
+  background: radial-gradient(circle, rgba(26,39,80,1) 16%, rgba(26,70,78,1) 64%);
+}
+
+.welcome-panel{
+  color: white;
+}
+
+.welcome-title{
+  color: white;
+}
+
+.welcome{
+  background: rgb(26,39,80);
+  background: radial-gradient(circle, rgba(26,39,80,1) 16%, rgba(26,70,78,1) 64%);
+}
+
+// Bottom Bar clock (atom-clock Addon)
+
+.atom-clock-time{
+  font-size: 26px;
+}
+.atom-clock-time:hover{
+  font-weight: bold;
+}
+
+.title{
+  color: #0091ff;
+  background: rgb(26,39,80);
+  background: radial-gradient(circle, rgba(26,39,80,1) 16%, rgba(26,70,78,1) 64%);
+  width: 100%;
+}
+
+.title:hover{
+  transition: 0.2s;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.texteditor.tab.sortable{
+  background: rgb(26,39,80);
+  background: radial-gradient(circle, rgba(26,39,80,1) 16%, rgba(26,70,78,1) 64%);
+}
+
+span.name.icon.icon-file-directory{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+
+}
+span.name.icon.icon-file-directory:hover{
+  transition: 0.3s;
+  font-size: 20px;
+}
+//li.file.entry.list-item.selected::selection{
+//  color: black;
+//}
+
+span.name.icon.icon-file-text{
+  color: #000000;
+  font-weight: bold;
+}
+
+span.name.icon.icon-file-text:hover{
+  transition: 0.3s;
+  color: #19ff00;
+}
+
+span.name.icon.icon-file-text:active{
+  transition: 0.2s;
+  background: rgba(255, 255, 255, 0.25);
+
+}
+
+//span.name.icon.icon-file-text:checked{
+//transition: 0.3s;
+//color: black;
+//}
+
+.syntax--entity{
+  color: #19ff00;
+
+}
+//colortags
+.syntax--support{
+  color: #ff8000;
+
+}
+
+.syntax--css{
+  color: #19ff00;
+}
+
+.syntax--html{
+  // color: #a67146;
+}
+
+li.file.entry.list-item.selected::before{
+  background: rgba(0,0,0,0.65);
+  color: #19ff00;
+  transition: 0.2s;
+}
+
+li.file.entry.list-item.selected *{
+  color: #19ff00 !important;
+  transition: 0.1s;
+}
+
+div.header.list-item:hover{
+  color: white;
+
+}
+
+// Table (todo-show Addon)
+
+.show-todo-preview{
+  background: rgb(22,40,130);
+  background: linear-gradient(309deg, rgba(22,40,130,1) 5%, rgba(91,9,158,1) 38%, rgba(246,118,13,1) 96%);
+}
+
+.input-block-item button{
+  background: white;
+  color: black;
+
+}
+
+.input-block-item span{
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 100%;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.input-block-item button:hover{
+  color: #19ff00;
+  transition: 0.2s;
+}
+
+.todo-table td {
+  color: black;
+}
+
+.todo-table th {
+    color: white !important;
+    border: 1px solid white;
+    border-bottom: 3px solid white;
+    font-size: 16px !important;
+}
+
+.todo-table th:hover{
+    font-size: 20px !important;
+    transition: 0.1s;
+}
+
+.todo-table table {
+    border: 1px solid white;
+}
+
+.todo-table table * {
+    color: black;
+    background: transparent !important;
+    border-color: white !important;
+    font-weight: bold;
+}
+
+.todo-table table *:hover{
+  color: #19FF00;
+  transition: 0.2s;
+}
+
+.todo-table td:active{
+  font-weight: bold;
+  font-size: 16px;
+}
